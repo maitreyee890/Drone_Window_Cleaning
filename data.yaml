@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['window']
+
+roboflow:
+  workspace: tech-amp-windrones
+  project: windows-3lkht
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tech-amp-windrones/windows-3lkht/dataset/1
